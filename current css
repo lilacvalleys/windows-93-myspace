@@ -1,0 +1,190 @@
+.logo{
+      font-size:0;
+      color: black;
+}
+
+.logo::before{
+    content:"babi";
+    text-shadow: 2px 2px 4px #000;
+    color: #DCD0FF;
+    line-height: 10px;
+    font-size: 20px;
+    padding: 70px;
+}
+
+div#header {
+    background-image: url(https://i.pinimg.com/564x/00/0b/83/000b83f935b853e94c144ab4dadeb68e.jpg);
+    background-color: #a7bf93;
+    background-position: 0px -400px;
+    text-align: center;
+    font-family: monospace;
+    background-size: 30%;
+    background-repeat: repeat;
+}
+
+div#hSub {
+    color: #DCD0FF !important;
+    background-color: black;
+    text-align: center;
+    font-family: monospace;
+}
+
+h2#name {
+    color: #DCD0FF;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.extended.box {
+    border: 2px solid #596854;
+    background-color: #DCD0FF;
+}
+
+h4 {
+    color: #DCD0FF;
+}
+
+.fwiendCount {
+    color:#DCD0FF;
+}
+
+.url.box {
+    color:#DCD0FF;
+    border: 1px solid #DCD0FF;
+}
+
+body {
+    color: white;
+    background-color: #DCD0FF;
+    background-image: url("https://i.pinimg.com/originals/ba/36/73/ba3673f2c9071d3bff46b476059c8130.gif");
+    background-size: 100%;
+    background-attachment:fixed;
+    font-family: monospace;
+}
+
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 390px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url("https://i.pinimg.com/564x/8c/2b/da/8c2bda7622f12055fb910fc29e9b2c55.jpg");
+}
+.player.box {
+    background-color: #DCD0FF;
+    background-size: 33%;
+    background-position: 150px;
+    color: #DCD0FF;
+}
+
+.boxInfo.box {
+    border-color: #DCD0FF;
+    Backround-color: black;
+}
+.topLeft{
+    margin-top: 20px;
+    background-repeat: no-repeat
+    background-color: #DCD0FF;
+    background-image: url(-);
+    border: 2px dashed #DCD0FF;
+}
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/9b/1e/ba/9b1eba53f7a74ba02187dcf80e53cce7.gif);
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+}
+
+.topRight{
+    margin-top: 20px;
+    border: 2px solid #DCD0FF;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+.b {
+    color: #DCD0FF;
+}
+.tableLeft img{
+    border: 2px solid white;
+    border-radius: 50%;
+    background-position: center;
+    display: absolute;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    color: #DCD0FF
+}
+.tableRight{
+    background: #DCD0FF;
+}
+.boxHead{
+    color: #DCD0FF;
+    background: #DCD0FF;   
+}
+.rightHead{
+    color: #DCD0FF;
+    background: #DCD0FF;
+}
+div#footer{
+     bottom:0;
+     font-size:0;
+     left:500px;
+     position:fixed;
+     pointer-events: none; 
+} 
+.fwiendFace, .tableLeft {
+    transition: 0.5s;
+    background: #ffffff00;
+}
+::selection { background: #DCD0FF; }
+
+#sMsg, #block, #report, #add, #remove {
+    font-size: 13;
+    color: #DCD0FF;
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+}
+//sMsg block report add & remove
+
+.fwiendFace:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 1px solid #f7b5cd;
+    transition: 0.5s;
+}
+
+.tableLeft:hover {
+    border-radius: 30px;
+    transform: scale(0.8);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 1px solid #f7b5cd;
+    transition: 0.5s;
+}
+
+/* unvisited link */
+a:link {
+  color: #DCD0FF;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #DCD0FF;
+}
+
+/* selected link */
+a:active {
+  color: #DCD0FF;
+}
