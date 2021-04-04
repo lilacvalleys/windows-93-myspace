@@ -148,12 +148,50 @@ div#footer{
 
 ::selection { background: #DCD0FF; }
 
-#sMsg, #block, #report, #add, #remove {
-    font-size: 13;
-    color: #DCD0FF;
+#sMsg {
     background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
     background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
 }
+#sMsg::after {
+    content: "message me :)";
+    font-size: 13px;
+}
+
+#block {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#block::after {
+    content: "block</3";
+    font-size: 13px;
+}
+
+#add {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#add::after {
+    content: "friend lia<3";
+    font-size: 13px;
+}
+
+#report {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#report::after {
+    content: "snitch</3";
+    font-size: 13px;
+}
+
 //sMsg block report add & remove
 
 .fwiendFace:hover {
