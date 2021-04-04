@@ -141,6 +141,11 @@ div#footer{
     transition: 0.5s;
     background: #ffffff00;
 }
+.blog {
+    background-color: #DCD0FF;
+    padding: 15px;
+}
+
 ::selection { background: #DCD0FF; }
 
 #sMsg, #block, #report, #add, #remove {
