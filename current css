@@ -55,7 +55,7 @@ h4 {
 body {
     color: white;
     background-color: #DCD0FF;
-    background-image: url("https://i.pinimg.com/originals/ba/36/73/ba3673f2c9071d3bff46b476059c8130.gif");
+    background-image: url("https://i.pinimg.com/originals/89/7e/cc/897eccc6c2128463d28f96bde3078307.gif");
     background-size: 100%;
     background-attachment:fixed;
     font-family: monospace;
@@ -70,7 +70,7 @@ body {
     max-width: 390px;
     background-position: 0 0;
     background-size: 100% 100%;
-    background-image: url("https://i.pinimg.com/564x/8c/2b/da/8c2bda7622f12055fb910fc29e9b2c55.jpg");
+    background-image: url("https://i.pinimg.com/564x/7e/e8/b3/7ee8b33b064362d90500c526b7f19e3e.jpg");
 }
 .player.box {
     background-color: #DCD0FF;
@@ -81,7 +81,7 @@ body {
 
 .boxInfo.box {
     border-color: #DCD0FF;
-    Backround-color: black;
+    Background-color: black;
 }
 .topLeft{
     margin-top: 20px;
@@ -95,7 +95,7 @@ body {
     white-space: pre-wrap;
     display: block;
     height: 200px;
-    background-image: url(https://i.pinimg.com/originals/9b/1e/ba/9b1eba53f7a74ba02187dcf80e53cce7.gif);
+    background-image: url("https://i.pinimg.com/originals/9b/1e/ba/9b1eba53f7a74ba02187dcf80e53cce7.gif");
     background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
     background-size: 390px;
 }
@@ -155,7 +155,7 @@ div#footer{
     font-size: 0px;
 }
 #sMsg::after {
-    content: "message me :)";
+    content: "message me<3";
     font-size: 13px;
 }
 
@@ -177,7 +177,7 @@ div#footer{
     font-size: 0px;
 }
 #add::after {
-    content: "friend lia<3";
+    content: "friend me<3";
     font-size: 13px;
 }
 
