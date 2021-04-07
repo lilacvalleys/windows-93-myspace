@@ -53,12 +53,24 @@ h4 {
 }
 
 body {
-    color: white;
+    color: DCD0FF;
     background-color: #DCD0FF;
     background-image: url("https://i.pinimg.com/originals/89/7e/cc/897eccc6c2128463d28f96bde3078307.gif");
     background-size: 100%;
     background-attachment:fixed;
     font-family: monospace;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+b {
+    font-weight: bold;
+    color: white;
 }
 
 .player::before {
