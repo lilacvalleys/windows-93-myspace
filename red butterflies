@@ -1,0 +1,270 @@
+
+.span {
+    padding-top: 0px;
+    position: absolute;
+}
+.logo {
+      font-size:0;
+      color: black;
+}
+
+.logo::before{
+    content:"lover";
+    text-shadow: 2px 2px 4px #000;
+    color: #990f02;
+    line-height: 10px;
+    font-size: 20px;
+    padding: 70px;
+}
+
+div#header {
+    background-image: url(https://i.pinimg.com/564x/a7/a1/98/a7a198792eb9aceabbbe2721988ff2d1.jpg);
+    background-color: #400000;
+    background-position: 0px -400px;
+    text-align: center;
+    font-family: monospace;
+    background-size: 10%;
+    background-repeat: repeat;
+}
+
+div#hSub {
+    color: #400000 !important;
+    background-color: black;
+    text-align: center;
+    font-family: courier;
+}
+* {
+    color: #990f02;
+}
+h2#name {
+    color: #990f02;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.extended.box {
+    border: 0px solid;
+    background-color: #400000;
+}
+
+#commentInput {
+    width: calc( 100% - 6px );
+    margin: 0;
+    margin-top: 10px;
+    height: 100px;
+    border: 0px solid;
+    background: linear-gradient(#400000 , #6f0000);
+
+}
+
+h4 {
+    color: #990f02;
+}
+
+.fwiendCount {
+    color:#400000;
+}
+
+.url.box {
+    color: #400000;
+    border: 1px solid #400000;
+}
+
+body {
+    color: #400000;
+    background-color: #400000;
+    background-image: url("https://media.tenor.com/images/0fb08ae2b65648639568b4ff469aaa5a/tenor.gif");
+    background-size: 100%;
+    background-attachment:fixed;
+    font-family: monospace;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #990f02;
+}
+b {
+    font-weight: bold;
+    color: #990f02;
+}
+#hSub a {
+    color: #990f02;
+    text-decoration: none;
+}
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 390px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url("https://i.pinimg.com/564x/9c/cb/96/9ccb96be6c30e27866dee8023914d8dd.jpg");
+}
+.player.box {
+    background-color: #400000;
+    background-size: 33%;
+    background-position: 150px;
+    color: #400000;
+    border: 0px solid;
+}
+
+.boxInfo.box {
+    border-color: #400000;
+    Background-color: black;
+}
+.topLeft{
+    margin-top: 20px;
+    background-repeat: no-repeat
+    background-color: #400000;
+    background-image: url(-);
+    border: 2px dashed #400000;
+}
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 200px;
+    background-image: url("https://i.pinimg.com/originals/d7/7f/d2/d77fd2b6552b08f6ad457506affb72ae.gif");
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+}
+
+.topRight{
+    margin-top: 20px;
+    border: 2px solid #400000;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+.b {
+    color: #990f02;
+}
+.a {
+    color: #990f02;
+    text-decoration: none;
+}
+.tableLeft img{
+    border: 2px solid #990f02;
+    border-radius: 50%;
+    background-position: center;
+    display: absolute;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    color: #400000;
+}
+.tableRight{
+    background: #400000;
+}
+.boxHead{
+    color: #400000;
+    background: #400000;   
+}
+.rightHead{
+    color: #400000;
+    background: #400000;
+}
+div#footer{
+     bottom:0;
+     font-size:0;
+     left:500px;
+     position:fixed;
+     pointer-events: none; 
+} 
+.fwiendFace, .tableLeft {
+    transition: 0.5s;
+    background: none;
+}
+.blog {
+    background-color: #400000;
+    padding: 15px;
+}
+
+::selection { background: #400000; }
+
+#sMsg {
+    background-image: url(https://www.fg-a.com/butterflies/butterfly-red-animation-2018.gif);
+    background-size: 20%;
+    color: #990f02;
+    font-size: 0px;
+}
+#sMsg::after {
+    content: "message me<3";
+    font-size: 13px;
+}
+
+#block {
+    background-image: url(https://www.fg-a.com/butterflies/butterfly-red-animation-2018.gif);
+    background-size: 20%;
+    color: #990f02;
+    font-size: 0px;
+}
+#block::after {
+    content: "block</3";
+    font-size: 13px;
+}
+
+#add {
+    background-image: url(https://www.fg-a.com/butterflies/butterfly-red-animation-2018.gif);
+    background-size: 20%;
+    color: #990f02;
+    font-size: 0px;
+}
+#add::after {
+    content: "friend me<3";
+    font-size: 13px;
+}
+
+#report {
+    background-image: url(https://www.fg-a.com/butterflies/butterfly-red-animation-2018.gif);
+    background-size: 20%;
+    color: #990f02;
+    font-size: 0px;
+}
+#report::after {
+    content: "snitch</3";
+    font-size: 13px;
+}
+
+//sMsg block report add & remove
+
+.fwiendFace:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 1px solid #f7b5cd;
+    transition: 0.5s;
+}
+
+.tableLeft:hover {
+    border-radius: 30px;
+    transform: scale(0.8);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 1px solid #990f02;
+    transition: 0.5s;
+}
+
+/* unvisited link */
+a:link {
+  color: #400000;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #990f02;
+}
+
+/* selected link */
+a:active {
+  color: #400000;
+}
