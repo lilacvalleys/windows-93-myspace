@@ -1,0 +1,305 @@
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat947.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat947.png), auto !important;} /* End https://www.cursors-4u.com */
+
+.short, .player.box, .box.blurbs, .extended.box, .box.fwiends, .box.blog, td.tableRight {
+    border: 0px #DCD0FF double;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #white;
+    padding: 5px;
+    border-radius: 15px;
+}
+.avatar {
+    width: 150px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    image-orientation: from-image;
+    border-radius: 15px;
+}
+
+.logo{
+      font-size:0;
+      color: black;
+}
+
+.logo::before{
+    content:"babi";
+    font: cursive;
+    text-shadow: 2px 2px 4px #000;
+    color: #DCD0FF;
+    line-height: 10px;
+    font-size: 20px;
+    padding: 70px;
+}
+
+div#header {
+    background-image: url(https://i.pinimg.com/564x/00/0b/83/000b83f935b853e94c144ab4dadeb68e.jpg);
+    background-color: #DCD0FF;
+    background-position: 0px -400px;
+    text-align: center;
+    font-family: fantasy;
+    background-size: 30%;
+    background-repeat: repeat;
+}
+
+div#hSub {
+    color: #;
+    background-color: black;
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2#name {
+    color: #DCD0FF;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.extended.box {
+    border: 2px solid #596854;
+    background-color: #DCD0FF;
+}
+
+h4 {
+    color: #DCD0FF;
+}
+
+.fwiendCount {
+    color:#DCD0FF;
+}
+
+.url.box {
+    color:#DCD0FF;
+    border: 0px solid #DCD0FF;
+}
+
+body {
+    background-color: #DCD0FF;
+    background-image: url("https://i.pinimg.com/originals/87/9f/67/879f678528ab50af773867a936961a14.gif");
+    background-size: 100%;
+    background-attachment:fixed;
+    font-family: fantasy;
+}
+p {
+    display: #block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+b {
+    font-weight: bold;
+    color: white;
+}
+
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 390px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url("https://i.pinimg.com/564x/7e/e8/b3/7ee8b33b064362d90500c526b7f19e3e.jpg");
+}
+.player.box {
+    background-color: black;
+    background-size: 33%;
+    background-position: 150px;
+    color: #DCD0FF;
+    border: 0px solid;
+}
+.songName {
+    overflow: hidden;
+    background: #DCD0FF;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px -5px #333;
+    color: #white;
+    padding: 3px;
+}
+
+.boxInfo.box {
+    border-color: #DCD0FF;
+    border: 0px solid;
+    
+}
+.topLeft{
+    margin-top: 20px;
+    background-repeat: no-repeat
+    background-color: #DCD0FF;
+    background-image: url(-);
+    border: 2px dashed #DCD0FF;
+}
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 200px;
+    background-image: url("https://i.pinimg.com/originals/9b/1e/ba/9b1eba53f7a74ba02187dcf80e53cce7.gif");
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+}
+
+.topRight{
+    margin-top: 20px;
+    border: 2px solid #DCD0FF;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+.b {
+    color: #DCD0FF;
+}
+.tableLeft img{
+    border: 2px solid white;
+    border-radius: 50%;
+    background-position: center;
+    display: absolute;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    color: #DCD0FF
+}
+.tableRight{
+    background: #DCD0FF;
+}
+.boxHead{
+    color: #DCD0FF;
+    background: #DCD0FF;   
+}
+.rightHead{
+    color: #DCD0FF;
+    background: #DCD0FF;
+}
+div#footer{
+     bottom:0;
+     font-size:0;
+     left:500px;
+     position:fixed;
+     pointer-events: none; 
+} 
+.fwiendFace, .tableLeft {
+    transition: 0.5s;
+    background: #ffffff00;
+}
+.blog {
+    background-color: #DCD0FF;
+    padding: 15px;
+}
+
+::selection { background: #DCD0FF; }
+
+#sMsg {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#sMsg::after {
+    content: "message me<3";
+    font-size: 13px;
+}
+
+#block {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#block::after {
+    content: "block</3";
+    font-size: 13px;
+}
+
+#add {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#add::after {
+    content: "friend me<3";
+    font-size: 13px;
+}
+
+#report {
+    background-image: url(https://www.fg-a.com/butterflies/blue-butterfly-animated.gif);
+    background-size: 20%;
+    color: #DCD0FF;
+    font-size: 0px;
+}
+#report::after {
+    content: "snitch</3";
+    font-size: 13px;
+}
+
+//sMsg block report add & remove
+
+.fwiendFace:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 0px solid #f7b5cd;
+    transition: 0.5s;
+}
+
+.tableLeft:hover {
+    border-radius: 30px;
+    transform: scale(0.8);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 0px solid #f7b5cd;
+    transition: 0.5s;
+}
+
+#commentInput {
+    width: calc( 100% - 6px );
+    margin: 0;
+    margin-top: 10px;
+    height: 100px;
+    border: 0px solid #DCD0FF;
+    background: linear-gradient(#000000, #DCD0FF);
+
+}
+
+/* unvisited link */
+a:link {
+  color: #888888;
+}
+
+/* visited link */
+a:visited {
+  color: #DCD0FF;
+}
+
+/* mouse over link */
+a:hover {
+  color: #888888;
+}
+
+/* selected link */
+a:active {
+  color: #DCD0FF;
+}
+* {
+    color: white;
+}
+
+button {
+    color: #DCD0FF;
+    width: max-content;
+}
+
+@keyframes floating {
+0% { transform: translate(0, 0px); }
+50% { transform: translate(0, 5px); }
+100% { transform: translate(0, -0px); }
+}
+
+div{
+animation-name: floating;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
