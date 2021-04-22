@@ -1,11 +1,22 @@
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat947.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat947.png), auto !important;} /* End https://www.cursors-4u.com */
 
-.short, .player.box, .box.blurbs, .extended.box, .box.fwiends, .box.blog, td.tableRight {
+.player audio {
+  color: #DCD0FF;
+}
+
+div#online {
+    content: url(https://i.pinimg.com/originals/57/08/a1/5708a1f406d5c8f43f6694097641dbec.gif);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.short, .player.box, .box.blurbs, .extended.box, .box.fwiends, .box.blog, td.tableRight, .boxInfo, .boxHead,  .songName, .rightHead {
     border: 0px #DCD0FF double;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #white;
-    padding: 5px;
     border-radius: 15px;
+    box-shadow: 0px 0px 10px white;
+    padding: 5px;
 }
 .avatar {
     width: 150px;
@@ -21,7 +32,7 @@
 }
 
 .logo::before{
-    content:"babi";
+    content:"lilacvalleys on ig<3";
     font: cursive;
     text-shadow: 2px 2px 4px #000;
     color: #DCD0FF;
@@ -100,6 +111,7 @@ b {
     background-position: 0 0;
     background-size: 100% 100%;
     background-image: url("https://i.pinimg.com/564x/7e/e8/b3/7ee8b33b064362d90500c526b7f19e3e.jpg");
+    border-radius: 15px;
 }
 .player.box {
     background-color: black;
@@ -115,13 +127,13 @@ b {
     margin-top: 0px;
     font-size: 14px;
     box-shadow: 0px 4px 6px -5px #333;
-    color: #white;
     padding: 3px;
 }
 
 .boxInfo.box {
     border-color: #DCD0FF;
     border: 0px solid;
+    border-radius: 15px;
     
 }
 .topLeft{
@@ -130,6 +142,7 @@ b {
     background-color: #DCD0FF;
     background-image: url(-);
     border: 2px dashed #DCD0FF;
+    border-radius: 15px;
 }
 .topLeft:after {
     content: "";
@@ -139,6 +152,7 @@ b {
     background-image: url("https://i.pinimg.com/originals/9b/1e/ba/9b1eba53f7a74ba02187dcf80e53cce7.gif");
     background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
     background-size: 390px;
+    border-radius: 15px;
 }
 
 .topRight{
@@ -146,6 +160,7 @@ b {
     border: 2px solid #DCD0FF;
     margin-bottom: 20px;
     max-width: 550px;
+    border-radius: 15px;
 }
 .b {
     color: #DCD0FF;
